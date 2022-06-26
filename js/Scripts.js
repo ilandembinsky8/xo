@@ -3,6 +3,20 @@ turn = 1;
 x_counter = 0;
 winner = false;
 turns = 0;
+
+function gotoPage(x) {
+    if (x == 1) location.href = "home.html";
+    if (x == 2) location.href = "xo.html";
+    if (x == 3) location.href = "thanks.html";
+}
+
+function makeMenu() {
+    s = "<div class='oneMenuItem' onclick='gotoPage(1)'>Home</div>";
+    s = s + "<div class='oneMenuItem' onclick='gotoPage(2)'>Game</div>";
+    s = s + "<div class='oneMenuItem' onclick='gotoPage(3)'>Thanks</div>";
+    document.getElementById("menu").innerHTML = s;
+}
+
 function anotherGame() {
     location.reload();
 }

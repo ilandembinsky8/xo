@@ -1,0 +1,66 @@
+﻿body
+{
+    padding:0px;margin:0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: right;
+    width: 100%;
+    height: 100px;
+    background-color: #EAEAEA;
+    margin-bottom: 20px;
+}
+
+.oneMenuItem {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+    padding-top:30px;
+    cursor:pointer;
+}
+
+.game {
+    float: right;
+    width: 100%
+}
+
+    .game .inner {
+        margin: 0px auto;
+        width: 450px;
+        height: 550px;
+        text-align: center;
+        font-size: 72px
+    }
+
+        .game .inner .rect {
+            float: left;
+            width: 150px;
+            height: 150px;
+            border: 1px solid #333333;
+            padding-top: 35px
+        }
+
+.message {
+    float: right;
+    width: 450px;
+    height: 40px;
+    font-size: 32px
+}
+
+.question {
+    float: left;
+    margin-left: 125px;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 25px
+}
